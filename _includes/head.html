@@ -52,8 +52,8 @@
 {% else %}
   {% assign description = site.description | markdownify %}
 {% endif %}
-<meta name="description" content="{{ description | strip_html | truncatewords:50 }}">
-<meta property="og:description" content="{{ description | strip_html | truncatewords:50 }}">
+<meta name="description" content="{{ description | truncatewords:50 }}">
+<meta property="og:description" content="{{ description |  truncatewords:50 }}">
 
 {% if site.keywords or page.keywords %}
   <meta name="keywords" content="{{ site.keywords | default: page.keywords | join:',' }}">

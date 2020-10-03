@@ -21,7 +21,7 @@
     <br/>
     <br/>
       
-      {{ site.description | truncatewords:50 | markdownify }}
+      {{ site.description | truncatewords:50 }}
       {% assign author = site.data.authors.first[1] %}
       {% if author.social %}
         <div class="sidebar-social">
