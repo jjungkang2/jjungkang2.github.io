@@ -15,11 +15,11 @@ order: 1
 
 ### 학력
 
-- [한성과학고등학교](http://hansung-sh.hs.kr/) 조기졸업
+- 한성과학고등학교 조기졸업
 
-- [KAIST](https://kaist.ac.kr/kr/) 학부 17 주전공 전기및전자공학부, 복수전공 전산학부
+- KAIST 학부 17 주전공 전기및전자공학부, 복수전공 전산학부
 
-- [KAIST 전기및전자공학부 황의종 교수님](https://sites.google.com/view/whanglab/di-lab) 랩에서 개별연구
+- KAIST 전기및전자공학부 [황의종 교수님](https://sites.google.com/view/whanglab/di-lab) 랩에서 개별연구
 
 ### 경력
 
@@ -27,15 +27,15 @@ order: 1
 
 - [엘리스 스쿨](https://school.elice.io/) 강사 및 콘텐츠 개발
 
-- [KAIST 글로벌영재교육원, KAIST 사이버영재교육원](http://gifted.kaist.ac.kr/index.php) 멘토
+- KAIST 글로벌영재교육원, KAIST 사이버영재교육원 멘토
 
-- [KAIST LG사랑의다문화학교](https://lgschool.kaist.ac.kr/) 멘토
+- KAIST LG사랑의다문화학교 멘토
 
-- [한국과학창의재단 사다리프로젝트](https://steam.kofac.re.kr/) 멘토
+- 한국과학창의재단 사다리프로젝트 멘토
 
-- [KAIST 전기및전자공학부](https://ee.kaist.ac.kr/) 집행부원
+- KAIST 전기및전자공학부 집행부원
 
-- [대전 국립중앙박물관](https://www.science.go.kr/) 멘토
+- 대전 국립중앙박물관 멘토
 
 ### 동아리
 
