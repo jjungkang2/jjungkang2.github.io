@@ -2,7 +2,8 @@
 layout: tag-blog
 title: ML
 slug: ml
-category: devlog
+category: study
 menu: false
-order: 1
+order: 2
+header-img: "/img/logo.png"
 ---
