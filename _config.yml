@@ -10,7 +10,7 @@ url:                 https://jjungkang2.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             ""
+baseurl:             "/about"
 
 # A very short description of your page
 tagline:             카이스트 학부 17
