@@ -18,9 +18,7 @@ tagline:             카이스트 학부 17
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  주전공 전기및전자공학부\n
-  복수전공 전산학부\n
-  다양한 배움을 추구합니다!
+  다양한 배움을 추구합니다.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
