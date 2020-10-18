@@ -3,8 +3,7 @@ layout: post
 title:  "더 나은 나를 만드는 과정"
 subtitle:   "좋은 습관 만들기"
 categories: essay
-tags: habbit
-comments: true
+tags: essay habbit
 ---
 
 ## 개요
