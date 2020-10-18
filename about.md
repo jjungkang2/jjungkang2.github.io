@@ -38,6 +38,18 @@ order: 1
 - KAIST 전기및전자공학부 집행부원  
 - 대전 국립중앙박물관 멘토
 
+### 수강 과목
+
+<details>
+<summary>전기및전자공학부 수업</summary>
+<div markdown="1">
+
+- 신호및시스템
+
+
+</div>
+</details>
+
 ### 동아리
 
 - 교내 전자과 컨퍼런스 동아리 [FEEL](https://www.facebook.com/FEELcampofficial/) 기획부  
