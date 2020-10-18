@@ -5,7 +5,6 @@ subtitle:   "좋은 습관 만들기"
 categories: essay
 tags: essay habbit
 comments: true
-header-img: 
 ---
 
 ## 개요
@@ -26,7 +25,7 @@ header-img:
 
 ### 완료된 목표
 
-아직 없다😵
+- 블로그 개설하기
 
 ### 예정된 목표
 
