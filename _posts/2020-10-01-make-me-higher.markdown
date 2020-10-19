@@ -21,23 +21,28 @@ comments: false
 
 ---
 
-### 진행중인 목표
 
+<details open>
+<summary style="font-size: 1.17em; font-weight: bold;">진행중인 목표</summary>
+<div markdown="1">
 - 수면패턴 조절하기  
 - 물 많이 마시기
 - 체지방 감량하기
+</div>
+</details>
 
-### 예정된 목표
-
+<details open>
+<summary style="font-size: 1.17em; font-weight: bold;">예정된 목표</summary>
+<div markdown="1">
 - 버킷리스트 작성하기
 - 논문 리뷰하기
 - 영어 성적 올리기
 - 텐서플로우 개발자 자격증 획득하기
+</div>
+</details>
 
 <details>
-<summary style="font-size: 1.17em; 
-  font-weight: bold;
-  text-rendering: optimizeLegibility;">완료된 목표</summary>
+<summary style="font-size: 1.17em; font-weight: bold;">완료된 목표</summary>
 <div markdown="1">
 - 블로그 개설하기
 </div>
