@@ -28,7 +28,9 @@ comments: false
 - 체지방 감량하기
 
 <details>
-<summary style="font-size: 1.17em">완료된 목표</summary>
+<summary style="font-size: 1.17em; 
+  font-weight: bold;
+  text-rendering: optimizeLegibility;">완료된 목표</summary>
 <div markdown="1">
 - 블로그 개설하기
 </div>
