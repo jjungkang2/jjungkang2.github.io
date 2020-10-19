@@ -22,9 +22,8 @@
   {% endunless %}
   {% endfor %}
 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
   {% unless include.excerpt %}
-  <!--
   <div class="markdown-body">
 
      {% if post.header-img %}<div class="head-image"><img
@@ -32,6 +31,8 @@
     <br />{% elsif tag.header-img %}
     <div class="head-image"><img src="{{ site.url }}/assets/{{ tag.header-img }}" /></div>
     <br />{% endif %}
+    
+    <!--
     <style>
       .myAd1190 {
         width: 48%;
@@ -73,13 +74,14 @@
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+  -->
 
     <br />
     {{ post.content }}
     <br />
     <br />
   </div>
-  
+  <!--
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
   </script>

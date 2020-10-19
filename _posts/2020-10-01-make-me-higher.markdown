@@ -4,7 +4,7 @@ title:  "더 나은 나를 만드는 과정"
 subtitle:   "좋은 습관 만들기"  
 categories: essay  
 tags: essay habbit  
-
+comments: false
 ---
 
 꾸준히 발전하고자 하는 모습을 기록하고, 이를 통해 더욱 자극 받고 동기부여가 되려합니다.
