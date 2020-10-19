@@ -27,9 +27,12 @@ comments: false
 - 물 많이 마시기
 - 체지방 감량하기
 
-### 완료된 목표
-
+<details>
+<summary style="font-size: 1.17em">완료된 목표</summary>
+<div markdown="1">
 - 블로그 개설하기
+</div>
+</details>
 
 ### 예정된 목표
 
