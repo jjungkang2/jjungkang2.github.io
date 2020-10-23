@@ -19,31 +19,30 @@ comments: false
 
 ## 목표
 
+일주일 이내로 끝낼 수 있는 목표는 단기,  
+일주일 ~ 한달이 소요되는 목표는 중기,
+그것보다 길게 바라보는 목표는 장기로 설정하였습니다.  
+
 ---
-
-
+<!--
 <details open>
 <summary style="font-size: 1.17em; font-weight: bold;">진행중인 목표</summary>
 <div markdown="1">
-- 수면패턴 조절하기  
-- 물 많이 마시기
-- 체지방 감량하기
-</div>
-</details>
+-->
 
-<details open>
-<summary style="font-size: 1.17em; font-weight: bold;">예정된 목표</summary>
-<div markdown="1">
-- 버킷리스트 작성하기
-- 논문 리뷰하기
-- 영어 성적 올리기
-- 텐서플로우 개발자 자격증 획득하기
-</div>
-</details>
+### 진행중인 목표
 
-<details>
-<summary style="font-size: 1.17em; font-weight: bold;">완료된 목표</summary>
-<div markdown="1">
-- 블로그 개설하기
-</div>
-</details>
+- \[장기] 수면패턴 조절하기  
+- \[장기] 물 많이 마시기
+- \[장기] 체지방 감량하기
+
+### 예정된 목표
+
+- \[단기] 버킷리스트 작성하기
+- \[장기] 논문 리뷰하기
+- \[중기] 영어 성적 올리기
+- \[중기] 텐서플로우 개발자 자격증 획득하기
+
+### 완료된 목표
+
+- \[단기] 블로그 개설하기
