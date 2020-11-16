@@ -24,7 +24,7 @@ comments: false
 ---
 
 * __영어 배경__  
-  믿기지 않을 수도 있지만 나는 아직 제대로 된 토익, 토플 성적이 없다. (카이스트 입학 시 학교에서 자체적으로 본 토플은 제외한다) 내 기억에는 매우 어렸을 때부터 영어 공부를 시작했던 것 같은데, 중학생 때 영재고 준비를 시작하면서부터 영어 실력에 발전이 없던 것 같다. 오히려 뒤처졌을 수도 있다. 고등학교를 다니면서 영어 등급이 1, 2등급이 나왔던 적이 없던 것을 생각해보면 나는 영어를 엄청 잘하는 편은 아니다.
+  나는 아직 제대로 된 토익, 토플 성적이 없다. 내 기억에는 매우 어렸을 때부터 영어 공부를 시작했던 것 같은데, 중학생 때 영재고 준비를 시작하면서부터 영어 실력에 발전이 없던 것 같다. 오히려 뒤처졌을 수도 있다. 고등학교를 다니면서 영어 등급이 1, 2등급이 나왔던 적이 없던 것을 생각해보면 나는 영어를 엄청 잘하는 편은 아니다.
 
 * __영어 실력__  
   내 현재 영어 실력을 객관적으로 파악해보면 다음과 같다.
@@ -48,10 +48,10 @@ comments: false
 
 * __목표 현황__  
   기존에는 매일 영어 단어를 30개 씩 외우려 했는데, 목표를 높여 매일 **영단어 50개**씩 외우기를 실천중이다. 영어 단어를 외우는 과정은 **챌린저스**라는 앱을 통해 자극을 받고 있다. 챌린저스는 원하는 주제를 정해 돈을 걸고 목표를 달성하는 것인데, 나는 영단어 100개 외우기 목표에 도전했다. 설명을 보면 알겠지만 사실 영단어 100개 외우기가 아닌 영단어 100개 쓰기라, 50개를 외우는 것으로 목표를 잡았다. 하루에 약 25~30개의 토플 단어를 외우는 한달 코드 단어집을 구매해 이틀치를 매일 외웠다.  
-  ![영단어 100개 외우기](/assets/img/study-english-1.jpg){: .aligncenter width="40%" height="40%"}  
-  ![영단어 100개 외우기](/assets/img/study-english-2.jpg){: .aligncenter width="40%" height="40%"}  
+  <img src="/assets/img/study-english-1.jpg" alt="영단어 100개 외우기" class="aligncenter" width="40%" height="40%" style="FLOAT:left; margin:20px">
+  <img src="/assets/img/study-english-2.jpg" alt="영단어 100개 외우기" class="aligncenter" width="40%" height="40%" style="margin:20px">
 
   매일 단어를 외우고 인증을 했고, 다음 날 가족 약속이 있는 등 시간을 도저히 낼 수 없을 때에는 전날에 단어 100개를 외우고 다음날 사진만 찍는 방법을 사용했다. 아래 사진에서처럼 매일 단어 외우는 것을 인증했고, 10월 26일부터 11월 8일까지 100%의 달성도를 볼 수 있다. 이주가 지날 때 마다 사진을 추가하며 블로그에 기록하려 한다.  
-  ![단어 인증](/assets/img/study-english-2.jpg){: .aligncenter width="40%" height="40%"}  
-  ![단어 인증](/assets/img/study-english-3.jpg){: .aligncenter width="40%" height="40%"}  
+  <img src="/assets/img/study-english-3.jpg" alt="단어 인증" class="aligncenter" width="40%" height="40%" style="FLOAT:left; margin:20px">  
+  <img src="/assets/img/study-english-4.jpg" alt="단어 인증" class="aligncenter" width="40%" height="40%" style="margin:20px">
 
