@@ -135,7 +135,6 @@ abbr[title] {
 b,
 strong {
   font-weight: inherit;
-  background-color:#9ed1f333
 }
 
 /**
@@ -145,7 +144,6 @@ strong {
 b,
 strong {
   font-weight: bolder;
-  background-color:#9ed1f333
 }
 
 /**
