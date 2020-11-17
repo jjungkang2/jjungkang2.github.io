@@ -34,22 +34,22 @@ comments: false
 
 ---
 
-* <span style="font-size: 1.10em; background-color:#9ed1f333;">영어 배경</span>  
+* <span style="font-size: 1.05em; font-weight: bold; background-color:#4f86aa22;">영어 배경</span>  
   나는 아직 제대로 된 토익, 토플 성적이 없다. 내 기억에는 매우 어렸을 때부터 영어 공부를 시작했던 것 같은데, 중학생 때 영재고 준비를 시작하면서부터 영어 실력에 발전이 없던 것 같다. 오히려 뒤처졌을 수도 있다. 고등학교를 다니면서 영어 등급이 1, 2등급이 나왔던 적이 없던 것을 생각해보면 나는 영어를 엄청 잘하는 편은 아니다.
 
-* #### 영어 실력  
+* <span style="font-size: 1.05em; font-weight: bold; background-color:#4f86aa22;">영어 실력</span>  
   내 현재 영어 실력을 객관적으로 파악해보면 다음과 같다.
   > + 토익 스피킹 레벨 7(최대 레벨 8), 유효기간 2022/05/30
   > + 문법을 감으로 판단함
   > + 외우고 있는 단어의 수가 많지 않음
   > + reading에 약함
 
-* #### 공부 방법  
+* <span style="font-size: 1.05em; font-weight: bold; background-color:#4f86aa22;">공부 방법</span>  
   이 년 전 겨울 방학에 토익을 공부하려 했던 적이 있는데, 단어를 몰라 틀리는 경우가 많아 답답했다. 특히 나는 이해하는 것 보다 외우는 것에 취약해서 미리미리 외워두지 않으면 단기간에 성적을 올리기는 어렵다고 생각했다. 또, 이번 겨울방학에 영어 공부만 하는 것이 아닌 인턴 생활과 병행할 예정이라 단어는 미리 파악하고 있어야 방학에 병행할 수 있겠다는 생각이 들었다. 따라서 11월, 12월에는 **매일 아침 영어 단어를 30개**씩 외울 생각이다.  
 
   이를 토대로 1월에 토플의 reading, listening, speaking, writing을 공부해서 2월에 시험을 볼 예정이다.
 
-* #### 영어 성적이 필요한 이유  
+* <span style="font-size: 1.05em; font-weight: bold; background-color:#4f86aa22;">영어 성적이 필요한 이유</span>  
   영어 성적을 준비해야겠다고 느낀 이유는 아래와 같다.
   > + 교환학생을 준비할 때 지원할 수 있는 학교의 범위를 넓히기 위해
   > + 졸업할 때 제출하기 위해
@@ -63,7 +63,7 @@ comments: false
 
 ---
 
-* #### 목표 현황  
+* <span style="font-size: 1.05em; font-weight: bold; background-color:#4f86aa22;">목표 현황</span>  
   기존에는 매일 영어 단어를 30개 씩 외우려 했는데, 목표를 높여 매일 <span style="background-color:#4f86aa55">영단어 50개</span>씩 외우기를 실천중이다. 영어 단어를 외우는 과정은 **챌린저스**라는 앱을 통해 자극을 받고 있다. 챌린저스는 원하는 주제를 정해 돈을 걸고 목표를 달성하는 것인데, 나는 영단어 100개 외우기 목표에 도전했다. 설명을 보면 알겠지만 사실 영단어 100개 외우기가 아닌 영단어 100개 쓰기라, 50개를 외우는 것으로 목표를 잡았다. 하루에 약 25~30개의 토플 단어를 외우는 한달 코드 단어집을 구매해 이틀치를 매일 외웠다.  
   <img src="/assets/img/study-english-1.jpg" alt="영단어 100개 외우기" class="aligncenter" width="40%" height="40%" style="FLOAT:left; margin:20px; border:1px solid black">
   <img src="/assets/img/study-english-2.jpg" alt="영단어 100개 외우기" class="aligncenter" width="40%" height="40%" style="margin:20px; border:1px solid black">
