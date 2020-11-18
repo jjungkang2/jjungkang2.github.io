@@ -103,6 +103,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 exclude:
   - README.md
