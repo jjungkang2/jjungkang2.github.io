@@ -47,7 +47,7 @@ comments: false
   > + reading에 약함
 
 * <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">공부 방법</p>  
-  이 년 전 겨울 방학에 토익을 공부하려 했던 적이 있는데, 단어를 몰라 틀리는 경우가 많아 답답했다. 특히 나는 이해하는 것 보다 외우는 것에 취약해서 미리미리 외워두지 않으면 단기간에 성적을 올리기는 어렵다고 생각했다. 또, 이번 겨울방학에 영어 공부만 하는 것이 아닌 인턴 생활과 병행할 예정이라 단어는 미리 파악하고 있어야 방학에 병행할 수 있겠다는 생각이 들었다. 따라서 11월, 12월에는 **매일 아침 영어 단어를 30개**씩 외울 생각이다.  
+  이 년 전 겨울 방학에 토익을 공부하려 했던 적이 있는데, 단어를 몰라 틀리는 경우가 많아 답답했다. 특히 나는 이해하는 것 보다 외우는 것에 취약해서 미리미리 외워두지 않으면 단기간에 성적을 올리기는 어렵다고 생각했다. 또, 이번 겨울방학에 영어 공부만 하는 것이 아닌 인턴 생활과 병행할 예정이라 단어는 미리 파악하고 있어야 방학에 병행할 수 있겠다는 생각이 들었다. 따라서 11월, 12월에는 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">매일 아침 영어 단어를 30개</span>씩 외울 생각이다.  
 
   이를 토대로 1월에 토플의 reading, listening, speaking, writing을 공부해서 2월에 시험을 볼 예정이다.
 
@@ -57,7 +57,7 @@ comments: false
   > + 졸업할 때 제출하기 위해
   > + 아직 고민 중이지만, 유학을 위해
 
-  **목표를 높게 잡아 100점**을 목표로 삼으려고 한다! 안되더라도 할 수 있는 데까지는 계속 도전해볼 것이다.
+  목표를 높게 잡아 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">100점 이상</span>을 목표로 삼으려고 한다! 안되더라도 할 수 있는 데까지는 계속 도전해볼 것이다.
 
 <br>
 
@@ -66,7 +66,7 @@ comments: false
 ---
 
 * <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">목표 현황</p>  
-  기존에는 매일 영어 단어를 30개 씩 외우려 했는데, 목표를 높여 매일 <p style="background-color:#4f86aa55">영단어 50개</p>씩 외우기를 실천중이다. 영어 단어를 외우는 과정은 **챌린저스**라는 앱을 통해 자극을 받고 있다. 챌린저스는 원하는 주제를 정해 돈을 걸고 목표를 달성하는 것인데, 나는 영단어 100개 외우기 목표에 도전했다. 설명을 보면 알겠지만 사실 영단어 100개 외우기가 아닌 영단어 100개 쓰기라, 50개를 외우는 것으로 목표를 잡았다. 하루에 약 25~30개의 토플 단어를 외우는 한달 코드 단어집을 구매해 이틀치를 매일 외웠다.  
+  기존에는 매일 영어 단어를 30개 씩 외우려 했는데, 목표를 높여 매일 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">영단어 50개</span>씩 외우기를 실천중이다. 영어 단어를 외우는 과정은 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">챌린저스</span>라는 앱을 통해 자극을 받고 있다. 챌린저스는 원하는 주제를 정해 돈을 걸고 목표를 달성하는 것인데, 나는 영단어 100개 외우기 목표에 도전했다. 설명을 보면 알겠지만 사실 영단어 100개 외우기가 아닌 영단어 100개 쓰기라, 50개를 외우는 것으로 목표를 잡았다. 하루에 약 25~30개의 토플 단어를 외우는 한달 코드 단어집을 구매해 이틀치를 매일 외웠다.  
   <img src="/assets/img/study-english-1.jpg" alt="영단어 100개 외우기" class="aligncenter" width="40%" height="40%" style="FLOAT:left; margin:20px; border:1px solid black">
   <img src="/assets/img/study-english-2.jpg" alt="영단어 100개 외우기" class="aligncenter" width="40%" height="40%" style="margin:20px; border:1px solid black">
 
