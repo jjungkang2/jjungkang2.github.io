@@ -133,17 +133,11 @@ abbr[title] {
  */
 
 b,
-strong {
-  font-weight: inherit;
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
-b,
-strong {
-  font-weight: bolder;
+strong {    
+  color: #000000;
+  padding: 0 5px;
+  background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);
+  background-image: linear-gradient(transparent 65%, rgb(255, 178, 183) 66%, rgb(255, 178, 183) 100%);
 }
 
 /**
