@@ -1,9 +1,9 @@
 <footer>
   <hr/>
-  <p style="text-align:center">
-    &copy; 2020. by jjungkang2
-  </p>
-  <p style="text-align:center">
+  {% if site.copyright.size > 0 %}
+    {{ site.copyright | markdownify }}
+  {% endif %}
+  <p>
     <code>Powered by <a href="https://jjungkang2.github.io/">김정은</a></code>
   </p>
 </footer>
