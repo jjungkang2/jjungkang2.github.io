@@ -68,13 +68,11 @@ comments: false
 * <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">목표 현황</p>  
   단어책은 [해커스 보카](https://www.hackers.co.kr/?m=bookmanager&quick=NY&iframe=Y&site=champ.hackers.com&uid=56&site=champ.hackers.com)를 이용했다.  
   
-  > + 10/26 ~ 11/21  
-
+  + 10/26 ~ 11/21  
   단어책 암기를 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">1회 완료</span>했다. <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">매일 꾸준히 단어 50개 씩 암기</span>했다.  
   모르는 단어가 굉장히 많았고 예문, 참고어 등은 외우지 않았다.   
 
-  > + 10/22 ~ 현재  
-  
+  + 10/22 ~ 현재  
   나는 단어책 한번 보고 전부 외울 수 없어 같은 책을 처음부터 다시 보고있다.  
   예문과 참고어 등을 살피며 다시 외우는 중이며,  
   <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">확실히 외워진 단어</span>와 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">나중에 다시 봐야하는 단어</span>를 구분해 놓는다.
