@@ -5,10 +5,10 @@ subtitle:   "좋은 습관 만들기"
 categories: essay  
 tags: essay hobby english  
 comments: false
----
+--- 
 
 > 진행 중인 장기 목표로, 영어 성적을 올려보려 한다.  
-> 내 모든 목표는 [여기](/essay/2020/10/01/make-me-higher/)를 클릭하면 볼 수 있다.  
+> 내 모든 목표는 [여기](/essay/2020/10/01/make-me-higher/)를 클릭하면 볼 수 있다.
 
 ## 목차
 
