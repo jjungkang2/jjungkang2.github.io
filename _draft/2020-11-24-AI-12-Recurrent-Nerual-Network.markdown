@@ -14,66 +14,75 @@ comments: false
 
 ---
 
-1. [목표](#목표)  
-2. [시작한 계기](#시작한-계기)  
-3. [진행 과정](#진행-과정)  
+1. [RNN이란?](#RNN이란?)  
+2. [RNN의 등장](#RNN의-등장)  
+3. [RNN의 역전파](#RNN의-역전파)
+4. [vanishing gradient problem](#vanishing-gradient-problem)
+5. [개선 방안](#개선-방안)
 
 <br>
 
-## 목표
+## RNN이란?
 
 ---
 
-|진행 여부|기간|목표|
-|:------:|:---:|:---:|
-|진행 중|11월, 12월|매일 단어 외우기|
-|진행 예정|1월|토플 공부하기|
-|진행 예정|2월|토플 시험 보기|
-|진행 예정|최종|토플 100점 맞기|
+RNN이란 Recurrent Nerual Network의 줄임말로, <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">sequential data</span>를 처리하기에 적합한 모델입니다. 앞서 설명했던 CNN의 경우 주로 사진 하나의 분류를 위해 사용했는데, RNN은 음성, 텍스트 등 **데이터에 순서**가 있고, 뒤쪽 데이터가 앞쪽 데이터에 영향을 받는 데이터를 처리합니다.
 
 <br>
 
-## 시작한 계기
+## RNN의 등장  
 
----
+---  
 
-* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">영어 배경</p>  
-  나는 아직 제대로 된 토익, 토플 성적이 없다. 내 기억에는 매우 어렸을 때부터 영어 공부를 시작했던 것 같은데, 중학생 때 영재고 준비를 시작하면서부터 영어 실력에 발전이 없던 것 같다. 오히려 뒤처졌을 수도 있다. 고등학교를 다니면서 영어 등급이 1, 2등급이 나왔던 적이 없던 것을 생각해보면 나는 영어를 엄청 잘하는 편은 아니다.
-
-* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">영어 실력</p>  
-  내 현재 영어 실력을 객관적으로 파악해보면 다음과 같다.
-  > + 토익 스피킹 레벨 7(최대 레벨 8), 유효기간 2022/05/30
-  > + 문법을 감으로 판단함
-  > + 외우고 있는 단어의 수가 많지 않음
-  > + reading에 약함
-
-* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">공부 방법</p>  
-  이 년 전 겨울 방학에 토익을 공부하려 했던 적이 있는데, 단어를 몰라 틀리는 경우가 많아 답답했다. 특히 나는 이해하는 것 보다 외우는 것에 취약해서 미리미리 외워두지 않으면 단기간에 성적을 올리기는 어렵다고 생각했다. 또, 이번 겨울방학에 영어 공부만 하는 것이 아닌 인턴 생활과 병행할 예정이라 단어는 미리 파악하고 있어야 방학에 병행할 수 있겠다는 생각이 들었다. 따라서 11월, 12월에는 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">매일 아침 영어 단어를 30개</span>씩 외울 생각이다.  
-
-  이를 토대로 1월에 토플의 reading, listening, speaking, writing을 공부해서 2월에 시험을 볼 예정이다.
-
-* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">영어 성적이 필요한 이유</p>  
-  영어 성적을 준비해야겠다고 느낀 이유는 아래와 같다.
-  > + 교환학생을 준비할 때 지원할 수 있는 학교의 범위를 넓히기 위해
-  > + 졸업할 때 제출하기 위해
-  > + 아직 고민 중이지만, 유학을 위해
-
-  목표를 높게 잡아 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">100점 이상</span>을 목표로 삼으려고 한다! 안되더라도 할 수 있는 데까지는 계속 도전해볼 것이다.
-
-<br>
-
-## 진행 과정
-
----
-
-* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">목표 현황</p>  
-  단어 책은 [해커스 보카](https://www.hackers.co.kr/?m=bookmanager&quick=NY&iframe=Y&site=champ.hackers.com&uid=56&site=champ.hackers.com)를 이용했다.  
+* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">1. MLP (Multi Layer Perceptron)우</p>  
+  MLP에 대한 구체적인 설명이 필요하다면 [여기]()를 클릭해서 공부하길 바랍니다.  
+  가장 간단한 예시로 고정된 sequence가 들어온 경우를 먼저 생각해봅시다. 이 때는 MLP로 처리할 수 있습니다. MLP의 경우 사진과 같이 sequence의 길이에 따라 파라미터의 개수가 바껴야하기 때문에 길이가 가변적인 dataset에서는 사용하기에 적합하지 않습니다. 따라서 다른 방법을 고안해야합니다.  
   
-  + **10/26 ~ 11/21**  
-   <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">매일 단어를 50개씩 암기</span>하여 단어 책 암기를 <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">1회 완료</span>했다.  
-  모르는 단어가 많았고 예문, 참고어 등은 외우지 않았다.   
+* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">2. CNN (Convolutional Neural Network)</p>  
+  CNN에 대한 구체적인 설명이 필요하다면 [여기]()를 클릭해서 공부하길 바랍니다.  
+  CNN은 fixed size 문제를 해결하기 위해 sliding convolution filter을 사용할 수 있어, MLP에서는 해결하지 못했던 길이가 달라지는 문제를 커버할 수 있습니다. 그러나 receptive field가 고정돼있고 이에 따라서 hidden representation이 계속 늘어나기 때문에 적합하다고 볼 순 없습니다. 이러한 문제를 해결하기 위해 RNN이 등장했습니다.
+  
+* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">3. RNN (Recurrent Neural Network)</p> 
+  이름부터가 Recurrent가 들어가죠, 반복되며 사용된다는 뜻입니다. input을 한번에 하나씩만 넣고, 파라미터를 재사용합니다. 따라서 CNN과 다르게 receptive field가 한정적이지 않습니다.
+  
 
-  + **11/22 ~ 현재**  
-  나는 단어 책을 한번 보고 전부 외울 수 없어 같은 책을 처음부터 다시 보고 있다.  
-  <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">예문과 참고어 등</span>을 살피며 다시 외우는 중이며,  
-  확실히 외워진 단어와 나중에 다시 봐야 하는 단어를 구분해 다음에 단어를 선별해 볼 수 있게 한다.
+
+이전 값들을 U h_t-1로 받아서 모든 이전 값에 영향을 받음
+
+BPTT (Back Propagation Through Time)의 문제점은 L_T 미분 h_t가 vanish, 혹은 explode할 수 있음.
+gradient of sigmoid가 1보다 작으면 계속 곱해지는 과정에서 0이 되고,
+U가 엄청 커서 grad랑 곱한게 1보다 크면 계속 곱해지는 과정에서 발산함.
+딱 1이여야함
+-> U를 orthonormal하게 함.
+orthonormal = orthogonal + (norm=1)
+U^T U = I
+-> gradients를 clip함.
+gradient가 갑자기 너무 크게 움직이면 학습했던 것들이 무효화 될 수 있기 때문에, learning rate를 작게하거나, gradient의 최대 갯수를 제한하거나, 너무 많이 변할 시 재조정 하는 등의 과정을 거침.
+
+Option 4. LSTM (Long Short-Term Memory)
+
+RNN은 관련 정보와 그 정보를 사용하는 지점 사이 거리가 멀 경우 역전파시 그래디언트가 점차 줄어 듬 -> vanishing gradient problem
+
+cell state를 추가해 vanishing/exploding gradients를 막음.
+중요한 아이디어는 previous memories를 "더해서" grad가 1이 되도록 함.
+switch variable은 4개임
+
+switch 1. forgate gate
+'과거 정보를 잊기'
+previous memories를 고려할지 안할지 결정
+
+switch 2. input gate
+'현재 정보를 기억하기'
+current input을 고려할지 안할지 결정
+output은 current input이랑 previous hidden unit에 의해 결정함.
+그 뒤에 쓰기로 한 것을 더함
+활성 함수는 tanh임
+
+switch 3. output gate
+current memories 중 다음 hidden state로 갈 것 계산함
+활성 함수는 tanh임
+
+Option 5. GRU (Gated Recurrent Unit)
+LSTM에서 변수를 줄임.
+gorget, input, output gate가 하나의 gate로 줄여짐.
+cell이 없어짐.
