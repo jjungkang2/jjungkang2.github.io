@@ -5,7 +5,6 @@ subtitle:   "수업 내용 정리하기"
 categories: study  
 tags: AI  
 comments: false
-use_math: true
 --- 
 
 > 위 글은 [KAIST 홍승훈 교수님](https://maga33.github.io/)의 인공지능개론 수업을 듣고 요약 정리한 글이며    
