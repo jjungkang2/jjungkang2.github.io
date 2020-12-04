@@ -5,6 +5,7 @@ subtitle:   "수업 내용 정리하기"
 categories: study  
 tags: AI  
 comments: false
+use_math: True
 --- 
 
 > 위 글은 [KAIST 홍승훈 교수님](https://maga33.github.io/)의 인공지능개론 수업을 듣고 요약 정리한 글이며    
@@ -14,11 +15,18 @@ comments: false
 
 ---
 
+$$
+\lim_{x\to 0}{\frac{e^x-1}{2x}}
+\overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}}
+\lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}}
+$$
+
 1. [RNN이란?](#RNN이란?)  
 2. [RNN의 등장](#RNN의-등장)  
-3. [RNN의 역전파](#RNN의-역전파)
-4. [vanishing gradient problem](#vanishing-gradient-problem)
-5. [개선 방안](#개선-방안)
+3. [RNN의 흐름](#RNN의-흐름)
+4. [RNN의 역전파](#RNN의-역전파)
+5. [vanishing gradient problem](#vanishing-gradient-problem)
+6. [개선 방안](#개선-방안)
 
 <br>
 
@@ -26,7 +34,7 @@ comments: false
 
 ---
 
-RNN이란 Recurrent Nerual Network의 줄임말로, <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">sequential data</span>를 처리하기에 적합한 모델입니다. 앞서 설명했던 CNN의 경우 주로 사진 하나의 분류를 위해 사용했는데, RNN은 음성, 텍스트 등 **데이터에 순서**가 있고, 뒤쪽 데이터가 앞쪽 데이터에 영향을 받는 데이터를 처리합니다.
+RNN이란 Recurrent Nerual Network의 줄임말로, <span style="padding: 0 5px; background: linear-gradient(transparent 65%, #ffb2b7 66%, #ffb2b7 100%);">sequential data</span>를 처리하기에 적합한 모델입니다. CNN의 경우 주로 사진 등 discrete data의 분류를 위해 사용했는데, RNN은 음성, 텍스트 등 **데이터에 순서**가 있고, 뒤쪽 데이터가 앞쪽 데이터에 영향을 받는 데이터를 처리합니다.
 
 <br>
 
@@ -34,16 +42,33 @@ RNN이란 Recurrent Nerual Network의 줄임말로, <span style="padding: 0 5px;
 
 ---  
 
-* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">1. MLP (Multi Layer Perceptron)우</p>  
-  MLP에 대한 구체적인 설명이 필요하다면 [여기]()를 클릭해서 공부하길 바랍니다.  
-  가장 간단한 예시로 고정된 sequence가 들어온 경우를 먼저 생각해봅시다. 이 때는 MLP로 처리할 수 있습니다. MLP의 경우 사진과 같이 sequence의 길이에 따라 파라미터의 개수가 바껴야하기 때문에 길이가 가변적인 dataset에서는 사용하기에 적합하지 않습니다. 따라서 다른 방법을 고안해야합니다.  
+Sequential data의 다양한 처리 방법에 대해 살펴봅시다.
+
+* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">1. MLP (Multi Layer Perceptron)</p>  
+  먼저 가장 간단한 예시로 길이가 4로 고정된 sequence가 들어온 경우를 먼저 생각해봅시다.  
+  ![MLP 예시](https://jjungkang2.github.io/assets/img/2020-11-24-AI-1.PNG)  
+  사진에서 볼 수 있듯이 input x가 d, hidden layer h가 m, output y가 n차원이라고 두면 input에서 hidden layer로 향할 때 m\*4d, hidden layer에서 output으로 향할 때 4n\*m개의 파라미터로 sequential data를 처리할 수 있습니다. 그러나 sequence의 길이에 따라 파라미터의 개수가 바뀌어야하기 때문에 길이가 가변적인 dataset에서는 사용하기에 적합하지 않습니다.  
   
 * <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">2. CNN (Convolutional Neural Network)</p>  
-  CNN에 대한 구체적인 설명이 필요하다면 [여기]()를 클릭해서 공부하길 바랍니다.  
-  CNN은 fixed size 문제를 해결하기 위해 sliding convolution filter을 사용할 수 있어, MLP에서는 해결하지 못했던 길이가 달라지는 문제를 커버할 수 있습니다. 그러나 receptive field가 고정돼있고 이에 따라서 hidden representation이 계속 늘어나기 때문에 적합하다고 볼 순 없습니다. 이러한 문제를 해결하기 위해 RNN이 등장했습니다.
+  다음으로는 CNN을 사용하는 경우를 생각해봅시다.  
+  ![CNN 예시](https://jjungkang2.github.io/assets/img/2020-11-24-AI-2.PNG)  
+  CNN은 fixed size 문제를 해결하기 위해 sliding convolution filter을 사용할 수 있어, MLP에서는 해결하지 못했던 길이가 달라지는 문제를 커버할 수 있습니다. 그러나 receptive field가 고정돼있어 hidden representation이 계속 늘어남에 따라 파라미터 수가 계속 늘어나게 됩니다. 따라서 CNN도 길이가 긴 sequential data를 처리하기에 최적이라고 볼 순 없습니다.  
   
-* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">3. RNN (Recurrent Neural Network)</p> 
-  이름부터가 Recurrent가 들어가죠, 반복되며 사용된다는 뜻입니다. input을 한번에 하나씩만 넣고, 파라미터를 재사용합니다. 따라서 CNN과 다르게 receptive field가 한정적이지 않습니다.
+* <p style="font-size: 1.05em; font-weight: bold; margin-top: 32px">3. RNN (Recurrent Neural Network)</p>  
+  이러한 배경 속에 RNN이 등장하게 되었습니다.
+  ![RNN 예시](https://jjungkang2.github.io/assets/img/2020-11-24-AI-3.PNG)  
+  이름에 Recurrent가 들어가죠, 반복되며 사용된다는 뜻입니다. input을 한번에 하나씩만 넣고, 파라미터를 재사용하거나 공유합니다. 따라서 CNN과 파라미터가 계속 늘어나지 않는다는 장점이 있습니다!
+
+<br>
+
+## RNN의 흐름  
+
+---
+
+RNN의 학습 방법을 시간의 흐름에 따라 펼쳐서 살펴봅시다.  
+![RNN 흐름](https://jjungkang2.github.io/assets/img/2020-11-24-AI-4.PNG)  
+
+
   
 
 
