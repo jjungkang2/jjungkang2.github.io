@@ -7,7 +7,7 @@ tags: essay hobby
 comments: false
 ---
 
-> 꾸준히 발전하고자 하는 바를 기록한다.
+꾸준히 발전하고자 하는 바를 기록한다.
 
 ## 목차
 
