@@ -121,6 +121,12 @@ kramdown:
     preview:         true
     preview_as_code: true
 
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 compress_html:
   comments:          ["<!-- ", " -->"]
   clippings:         all
