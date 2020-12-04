@@ -3,7 +3,7 @@ layout: post
 title:  "[인공지능개론] 12. Recurrent Nerual Network"  
 subtitle:   "수업 내용 정리하기"  
 categories: study  
-tags: ai  
+tags: AI RNN  
 comments: false
 --- 
 
