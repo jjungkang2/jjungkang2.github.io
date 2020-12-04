@@ -3,11 +3,11 @@ layout: post
 title:  "[인공지능개론] 12. Recurrent Nerual Network"  
 subtitle:   "수업 내용 정리하기"  
 categories: study  
-tags: AI  
+tags: ai  
 comments: false
 --- 
 
-> 인공지능을 차근차근 살펴봅시다  
+> 인공지능을 차근차근 살펴봅시다.  
 
 이 글은 [KAIST 홍승훈 교수님](https://maga33.github.io/)의 인공지능개론 수업을 듣고 요약 정리했음을 밝힙니다.
 
