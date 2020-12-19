@@ -8,7 +8,9 @@ jjungkang2:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    행복한 하루
+    이름 : 김정은  
+    하하  |
+    테스트
 
   # This photo will be used in the about section
   picture:
