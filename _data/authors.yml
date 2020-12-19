@@ -8,9 +8,10 @@ jjungkang2:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    이름 : 김정은  
-    하하  |
-    테스트
+    이름: 김정은  
+    대학교: 한국과학기술원  
+    주전공, 복수전공: 전기및전자공학부, 전산학부  
+    
 
   # This photo will be used in the about section
   picture:
